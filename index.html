@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- link CSS -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/main.css">
   
   <title>Frontend Mentor | Time tracking dashboard</title>
 
@@ -15,6 +22,91 @@
   </style>
 </head>
 <body>
+  <main>
+    <div class="user-report">
+      <div class="user-profile">
+        <img src="./images/image-jeremy.png" alt="Jeremy-profile">
+        <div class="profile-report">
+          <span>Report for</span>
+          <h2>Jeremy Robson</h2>
+        </div>
+      </div>
+      <nav class="d-m-y-report">
+        <ul>
+          <li><button id="daily">Daily</button></li>
+          <li><button id="weekly">Weekly</button></li>
+          <li><button id="monthly">Monthly</button></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="work-img">
+    <div class="work-report">
+      <div class="work">
+        <h3>Work</h3>
+        <h1 id="work-data"></h1>
+      </div>
+      <div class="work-stats">
+        <span><img src="./images/icon-ellipsis.svg" alt="ellipsis"></span>
+        <p><span></span>hrs</p>
+      </div>
+    </div>
+</div>
+    <div class="play-report">
+      <div class="play">
+        <h3>Play</h3>
+        <h1 id="play-data"></h1>
+      </div>
+      <div class="play-stats">
+        <span><img src="./images/icon-ellipsis.svg" alt="ellipsis"></span>
+        <p><span></span>hrs</p>
+      </div>
+    </div>
+
+    <div class="study-report">
+      <div class="study">
+        <h3>Study</h3>
+        <h1 id="study-data"></h1>
+      </div>
+      <div class="study-stats">
+        <span><img src="./images/icon-ellipsis.svg" alt="ellipsis"></span>
+        <p><span></span>hrs</p>
+      </div>
+    </div>
+
+    <div class="exercise-report">
+      <div class="exercise">
+        <h3>Exercise</h3>
+        <h1 id="exercise-data"></h1>
+      </div>
+      <div class="exercise-stats">
+        <span><img src="./images/icon-ellipsis.svg" alt="ellipsis"></span>
+        <p><span></span>hrs</p>
+      </div>
+    </div>
+
+    <div class="social-report">
+      <div class="social">
+        <h3>Social</h3>
+        <h1 id="social-data"></h1>
+      </div>
+      <div class="social-stats">
+        <span><img src="./images/icon-ellipsis.svg" alt="ellipsis"></span>
+        <p><span></span>hrs</p>
+      </div>
+    </div>
+
+    <div class="self-care-report">
+      <div class="self-care">
+        <h3>Self Care</h3>
+        <h1 id="self-care-data"></h1>
+      </div>
+      <div class="self-care-stats">
+        <span><img src="./images/icon-ellipsis.svg" alt="ellipsis"></span>
+        <p><span></span>hrs</p>
+      </div>
+    </div>
+  </main>
 
   Report for
   Jeremy Robson
