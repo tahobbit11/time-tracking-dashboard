@@ -105,10 +105,6 @@
         flex-direction: column;
      }
 
-     main div {
-
-     }
-
      h1,
      h2,
      h3,
@@ -205,6 +201,7 @@
       border: none;
       color: hsl(235, 45%, 61%);
       font-weight: 300;
+      cursor: pointer;
      }
 
      #weekly {
@@ -221,6 +218,16 @@
       border-radius: 15px;
       display: flex;
       flex-direction: column;
+      cursor: pointer;
+     }
+
+     .work-report:hover,
+     .play-report:hover,
+     .study-report:hover,
+     .exercise-report:hover,
+     .social-report:hover,
+     .self-care-report:hover {
+      background-color: hsl(235, 46%, 35%);
      }
 
      .work,
@@ -260,6 +267,11 @@
       justify-content: space-between;
       align-items: center;
       flex-direction: row;
+     }
+
+     .data {
+      color: white;
+      font-size: 1em;
      }
 
      #work-picture,
@@ -501,8 +513,21 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
+      padding-top: 5px;
     }
 
+   .work-stats h1,
+   .play-stats h1,
+   .study-stats h1,
+   .exercise-stats h1,
+   .social-stats h1,
+   .self-care-stats h1 {
+    font-size: 1.5em;
+   }
+
+    .data {
+      font-size: 1.5em;
+    }
 
   }
   
